@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Evolutionary College</title>
+        <link rel="stylesheet" href="css/contactus.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <style type="text/css">
+body 
+            {overflow:hidden;}
+</style>
+    </head>
+    <body>
+        
+        <div style="width=200px;height: 110px;float: right;margin-top: 40px; " >
+  <!-----------menu-------------->
+<section id="menu">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+ 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+
+        <a class="nav-link" href="aboutus.html">About Us</a>
+      </li>
+      
+      <li class="nav-item">
+
+        <a class="nav-link" href="contact.html" >Contact Us</a>
+      </li>
+        <li class="nav-item">
+
+        <a class="nav-link" href="loginIndex.php" >Student LogIn</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>      
+</section>    
+ </div>
+  <div style="width:500px;height:150px">
+  <div style="width:100px;height:150px;float: left"> <img src="images/logo.png" width="150px" height="150px"></div>
+   <div id="heading"style="width:400px;height:100px;float: right"><h2>The<br>Evolutionary College</h2></div>
+</div>
+        
+<!--contact form -->
+        
+        
+        <div class="contact" style="height: 750px;">
+            <br><br>
+           <h1>CONTACT US</h1>
+           
+        
+        <div class="contact_title" >
+            <form id="contact-form" method="post" action="contact-handler.php">
+               
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                <br><br>
+               <input name="phone" type="tel" class="form-control" placeholder="Your Number" required>
+                <br><br>
+                <input name="subject" type="text" class="form-control" placeholder="Subject" required> 
+             <br><br>
+             <textarea  name="message" class="message-control" placeholder="Message"  row="5" required>   
+    </textarea>
+                
+               <br>
+             <input id="submit-css" type="submit" class="form-control submit" value="SEND">
+                
+                   
+            </form>
+        </div>
+       </div>
+    </body>
+</html>

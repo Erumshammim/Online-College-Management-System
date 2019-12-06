@@ -1,0 +1,143 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+
+#heading
+{
+    padding:50px;    
+    padding-top: 20px;
+}
+/*menu**/
+#menu
+{ 
+   
+    position:relative;
+    left:250px;
+    top:0;
+    z-index:10; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+} 
+.navbar-nav li a
+{
+   float:right;
+    text-align:left;
+    
+}
+#menu ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    align-content:flex-end;
+    /background-color:#085663;/
+    background: #fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-inline
+{
+    
+}
+/********contact*******/
+.contact
+{
+    color:#fff;
+    text-transform: uppercase;
+    background: linear-gradient(rgba(20,10,30,0.5),rgba(0.3,60,100,4.5)),url(../images/contactform.jpeg);
+    height: 740px;
+    background-position:center;
+    background-repeat:repeat-x;
+    background-size:contain;
+}
+
+.contact h1
+{
+    font-size: 50px;
+    line-height: 10px;
+    color:aliceblue;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+form
+{
+    /*height: 500px;*/
+	width: 550px;
+	margin: 70px auto;
+	/*opacity: .7;*/
+	color:black;
+	
+  
+}
+.contact_form{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 500px;
+  height: 600px;
+  padding: 16px;
+  background-color: white;
+
+}
+.message-control{
+    width: 550px;
+    height: 90px;
+    background:white;
+    border: black;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color:black;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.form-control
+{
+    width: 550px;
+    height: 60px;
+    background:white;
+    border: black;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color:black;
+    margin-bottom: 12
+}
+#submit-css
+{
+    height:50px;
+    color:black;
+}
+form .submit
+{
+    width: 550px;
+    background:#ff5722;
+    border-color: transparent;
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 60px;
+    margin-top: 20px
+
+    
+}
+form .submit:hover
+{
+    background-color: #f44336;
+    cursor:pointer;
+}

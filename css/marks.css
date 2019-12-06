@@ -1,0 +1,68 @@
+/****---markscss-----*****/
+*
+{
+    margin:0;
+    padding:0;
+}
+#heading
+{
+    padding:50px;    
+    padding-top: 20px;
+}
+/****menu***/
+#menu
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+} 
+.navbar-nav li a
+{
+    float:right;
+    text-align:left;
+}
+#menu ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+#submenu
+{
+   position: sticky;
+
+}
+#picture
+{
+    background-image:url(images/a+.jpg) ; 
+   /* height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1620px;
+  width: 1710px;
+  height:700px;
+     
+}
+
+table,th,td
+{
+    border:2px solid black;
+    width:1100px;
+    background-color: aliceblue;
+}
